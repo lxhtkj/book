@@ -1,6 +1,5 @@
-# 专题一用到的项目源码
-有问题，提issue
-## git pull出现问题的时候，不用多想，删除本地项目，重新git clone
+# Netty 4 ClassLoader  GC etc
 
-## Netty的源码注释版本
-https://github.com/crazyFeng/netty/tree/netty-4.1.32.final-remark 
+## netty-push 中包含了netty实战和netty权威指南中部分代码，可直接运行
+
+## volatile synchronized etc
