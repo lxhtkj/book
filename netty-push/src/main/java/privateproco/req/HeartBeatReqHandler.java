@@ -36,12 +36,12 @@ public class HeartBeatReqHandler extends ChannelInboundHandlerAdapter {
   
         @Override  
         public void run() {  
-            NettyMessage heatBeat = buildHeatBeat();  
+            NettyMessage heatBeat = buildHeartBeat();
             System.out.println("Client send heart beat messsage to server : ---> " + heatBeat);  
             ctx.writeAndFlush(heatBeat);  
         }  
   
-        private NettyMessage buildHeatBeat() {  
+        private NettyMessage buildHeartBeat() {
             NettyMessage message = new NettyMessage();  
             Header header = new Header();
             header.setType(MessageType.HEARTBEAT_REQ.value());  

@@ -16,9 +16,10 @@ import io.netty.handler.logging.LoggingHandler;
 import io.netty.handler.stream.ChunkedWriteHandler;
 
 import java.net.URL;
+import java.nio.channels.FileChannel;
 
 public class HttpFileServer {
-
+    FileChannel
     private static final String DEFAULT_URL = "/C:/";
 
     public void run(final int port, final String url) throws Exception {

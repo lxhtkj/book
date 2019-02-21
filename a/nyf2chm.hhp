@@ -1,0 +1,17 @@
+[OPTIONS]
+Auto Index=Yes
+Binary TOC=Yes
+Compatibility=1.1 or later
+Compiled file=nyf2chm.chm
+Contents file=nyf2chm.hhc
+Language=0x804 Chinese (Simplified, PRC)
+Default Font=
+Display compile progress=yes
+Error log file=nyf2chm.log
+Flat=No
+Full-text search=Yes
+Index file=nyf2chm.hhk
+Title=
+
+[FILES]
+C:\Users\Administrator\Desktop\a\fd200d4d_eb9034a_0.html
